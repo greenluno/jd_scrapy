@@ -1,4 +1,4 @@
-# jd_scrapy
+# Instructions
 
 EC2 server address: ec2-18-139-110-175.ap-southeast-1.compute.amazonaws.com
 
