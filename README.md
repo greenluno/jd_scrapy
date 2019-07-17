@@ -31,3 +31,15 @@ table name: jd_comment
 
 5. Execute SQL command : select * from jd_comment;
    to view the result.
+# Principle
+
+1. The objective of this prototype is to extract comment data from one JD product page.
+
+2. Firstly scrapy will scrap the number of comment from the page.
+
+3. It will then calculate the number of comment page, by number of page = number of comment / 10 , as number of comment shown per page is 10. If there are any remainder add 1 page to the result.
+
+4. Loop through the page 1 by 1 to scrap the comments data.
+
+5. Use scrapy pipeline to insert the rows into database. The data should be roughly cleaned and ready for next steps.
+
