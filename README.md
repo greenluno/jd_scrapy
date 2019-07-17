@@ -18,7 +18,6 @@ database name: jd
 
 table name: jd_comment
 
-==========================================================
 
 # Procudures
 
